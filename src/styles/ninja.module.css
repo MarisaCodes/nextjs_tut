@@ -1,0 +1,20 @@
+.ninja_item {
+  display: block;
+  background-color: #fafafa;
+  border: solid;
+  border-color: #363636;
+  border-width: 0 0 0 6px;
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 20px;
+  cursor: pointer;
+}
+.ninja_item_body {
+  color: #363636;
+}
+.ninja_item:hover {
+  border-color: #485fc7;
+}
+.ninja_item:hover .ninja_item_body {
+  color: #3850b7;
+}
